@@ -3,7 +3,7 @@ import LayOut from "../../Components/LayOut/LayOut";
 import { useParams } from "react-router-dom";
 import classes from "./results.module.css";
 import axios from "axios";
-import { productUrl } from "../../API/endpoints";
+//import { productUrl } from "../../API/endpoints";
 import ProductCard from "../../Components/Product/ProductCard";
 function Results() {
   const [results, setResults] = useState();
